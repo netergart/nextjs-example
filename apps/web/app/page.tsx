@@ -132,6 +132,11 @@ export default function Page(): JSX.Element {
           </Card>
         ))}
       </div>
+
+      <div className="issue-demo">
+        <Image alt="png" height={120} priority src="/next-js.png" width={120} />
+        <Image alt="jpg" height={120} priority src="/next-js.jpg" width={120} />
+      </div>
     </main>
   );
 }
